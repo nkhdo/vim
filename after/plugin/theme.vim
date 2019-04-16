@@ -7,5 +7,5 @@ if has('gui_running')
   color ir_black+
 else
   " Settings for when running in the console
-  color base16
+  colorscheme base16-default-dark
 endif

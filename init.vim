@@ -10,5 +10,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
 Plug 'tpope/vim-sleuth'
 Plug 'sheerun/vim-polyglot'
+Plug 'chriskempson/base16-vim'
 
 call plug#end()
