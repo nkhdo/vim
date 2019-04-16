@@ -20,5 +20,6 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 Plug 'vim-scripts/vim-auto-save'
+Plug 'mkitt/tabline.vim'
 
 call plug#end()
