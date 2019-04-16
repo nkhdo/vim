@@ -19,5 +19,6 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
+Plug 'vim-scripts/vim-auto-save'
 
 call plug#end()
