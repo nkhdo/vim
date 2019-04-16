@@ -1,5 +1,6 @@
 set nocompatible
 let g:mapleader=" "
+let g:deoplete#enable_at_startup = 1
 
 call plug#begin('~/.vim/vendor')
 
@@ -11,5 +12,12 @@ Plug 'w0rp/ale'
 Plug 'tpope/vim-sleuth'
 Plug 'sheerun/vim-polyglot'
 Plug 'chriskempson/base16-vim'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
 
 call plug#end()
