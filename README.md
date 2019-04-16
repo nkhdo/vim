@@ -1,5 +1,5 @@
-# vim
-My vim config
+# Vim
+My vim config, started from https://github.com/rstacruz/vim-from-scratch
 
 # How to use?
 - clone this repo to ~/
