@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kaid/Projects/holistics'
+let g:netrw_dirhist_2='/home/kaid/Projects/holistics/socketio'
+let g:netrw_dirhist_3='/home/kaid/Projects'
+let g:netrw_dirhist_4='/home/kaid'
+let g:netrw_dirhist_5='/home'
+let g:netrw_dirhist_6='/home/kaid/.vim/after/plugin'
