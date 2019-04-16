@@ -7,8 +7,13 @@ if !has('gui_running') | set t_Co=256 | endif
 " Wildignore
 set wig+=vendor,log,logs
 
+let g:ale_fixers = {
+  \ 'javascript': ['eslint'],
+\ }
+
 let g:fzf_action = {
-  \ 'return': 'tab split',
+  \ 'return': 'tab split', 
   \ 'ctrl-d': 'split',
-  \ 'ctrl-r': 'vsplit' }
+  \ 'ctrl-r': 'vsplit',
+  \ 'ctrl-c': 'e' }
 

@@ -26,3 +26,6 @@ noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
 noremap <leader>tn :tabnext<cr>
 noremap <leader>tp :tabprevious<cr>
+
+" ALEfix
+noremap <leader>cf :ALEFix<cr>
