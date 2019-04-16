@@ -23,8 +23,11 @@ if !has('gui_running') | set t_Co=256 | endif
 " Wildignore
 set wig+=vendor,log,logs
 
+let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
+let g:ale_linters = {'vue': ['eslint', 'vls']}
 let g:ale_fixers = {
   \ 'javascript': ['eslint'],
+  \ 'vue': ['eslint']
 \ }
 
 let g:fzf_action = {
