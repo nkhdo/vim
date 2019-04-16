@@ -24,3 +24,5 @@ noremap <leader>7 7gt
 noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
+noremap <leader>tn :tabnext<cr>
+noremap <leader>tp :tabprevious<cr>
